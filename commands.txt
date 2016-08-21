@@ -1,0 +1,14 @@
+command line commands
+
+pwd - print working directory.
+cd - change directories. accepts path. if empty, takes you to home directory.
+ls - list. use "ls -a" to include hidden files
+mkdir - make directory in current path
+mv "file" "target directory" - move file (path) to target
+
+git init - initialize empty git repo
+git add - accepts input. use "git add ." to add all in directory
+git commit -m "<message>" - commits and provides commit message
+git status
+git rm "file" - remove file from working directory. commit afterward.
+git remote add origin git@github.com:audiosprite/<repo name>.git - adds repo to github
